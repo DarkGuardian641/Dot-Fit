@@ -190,7 +190,7 @@ img {
 }
 
 .nav__logo img{
-  width: 1.25 rem;
+  width: 1.25rem;
 }
 
 .nav__toggle{
@@ -394,6 +394,7 @@ img {
   width: 50px;
   height: 50px;
   background-color: var(--first-color-gray);
+  border-radius: 50%;
   display: grid;
   place-items:center ;
   margin-bottom: 1rem;
@@ -403,14 +404,12 @@ img {
 .program__title{
   font-size: var(--h3-font-size);
   margin-bottom: 1rem;
-
 }
 
 .program__description{
   font-size: var(--small-fonmt-size);
   letter-spacing: .5px;
   line-height: 150%;
-
 }
 
 .program__title,
@@ -423,8 +422,8 @@ img {
   justify-self: flex-end;
   margin-top: 1.5rem;
   font-size: 1.25rem;
-  color: var(--title-color-black);
-  opacity: 0;
+  color: var(--title-color/*-black*/);
+  /*opacity: 0;*/
   transition: opacity .4s;
 }
 .program__button i{
