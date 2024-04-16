@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
 
 :root {
-  --primary-color: #d291bc;
-  --primary-color-dark: #f7ebf3;
+  --primary-color: #59cef8;
+  --primary-color-dark: #d3f0fb;
   --text-dark: #1e293b;
   --text-light: #64748b;
-  --extra-light: #fafafa;
+  --extra-light: #84dbfa;
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -184,7 +184,7 @@ header::before {
 .why__content li {
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
-  color: var(--primary-color);
+  color: var(--text-dark);
 }
 
 .hero {
