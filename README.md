@@ -17,7 +17,7 @@
 
 ## Contributors
 
-[![DarkGuardian641](https://github-production-user-asset-6210df.s3.amazonaws.com/43953403/248202602-f81b0cf6-1394-4ab8-8ddf-4352bd8dbe7d.jpg)](https://twitter.com/wweb_dev)
-[![BradiceanuM](https://github-production-user-asset-6210df.s3.amazonaws.com/43953403/248202501-4d5ae3c3-b83b-4a2c-b7e2-0e38705f5487.jpg)](https://twitter.com/BradiceanuM)
-[![wish3233]([https://github-production-user-asset-6210df.s3.amazonaws.com/43953403/251365548-f713917f-93f9-416b-af75-24bfed8dd2f5.jpg](https://avatars.githubusercontent.com/u/156273224?s=400&v=4))](https://github.com/wish3233)
+[![DarkGuardian641]([https://avatars.githubusercontent.com/u/91188597?v=4)](https://github.com/DarkGuardian641)
+[![LalitK26]([https://github-production-user-asset-.s3.amazonaws.com/43953403/248202501-4d5ae3c3-b83b-4a2c-b7e2-0e38705f5487.jpg](https://avatars.githubusercontent.com/u/36792015?v=4))](https://github.com/LalitK26)
+[![wish3233]([[https://github-production-user-asset-6210df.s3.amazonaws.com/43953403/251365548-f713917f-93f9-416b-af75-24bfed8dd2f5.jpg](https://avatars.githubusercontent.com/u/156273224?v=4)](https://avatars.githubusercontent.com/u/156273224?s=400&v=4))](https://github.com/wish3233)
 [![kazlaan]()]()
