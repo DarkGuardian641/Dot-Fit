@@ -1,1 +1,2 @@
 # Dot Fit
+readme file
