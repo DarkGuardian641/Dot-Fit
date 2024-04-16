@@ -23,4 +23,4 @@
 <br>
 [Akanksha Kanade](https://github.com/wish3233)
 <br>
-[Azlaan Khan](https://github.com/kazlaan)
+[Azlaan Khan](https://github.com/kazlaan998)
