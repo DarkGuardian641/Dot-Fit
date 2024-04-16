@@ -486,7 +486,7 @@ img {
 
 .choose__data{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 2rem;
 }
 
@@ -505,12 +505,12 @@ img {
   font-size: var(--small-font-size);
 }
 
-/*
+
 .choose__triangle{
   height: 325px;
   position: absolute;
   left: 0;
-  bottom :0;
+  bottom: 0;
   clip-path: polygon(0 0,0 100%,100% 100%);
 }
 
@@ -531,7 +531,7 @@ img {
 
 */
 
-.choose_img{
+.choose_images{
   width: 260px;
   display: block;
   position: relative;
@@ -664,73 +664,19 @@ img {
 ::-webkit-scrollbar{
   width: .6rem;
   border-radius: .5rem;
-  background-color: hsl(180, 12%, 4%);
-  
-}
-::-webkit-scrollbar-thumb{
-  background-color: hsl(180, 12%, 4%);
-  border-radius: .5rem;
-}
-::-webkit-scrollbar-thumb:hover{
-  background-color: hsl(180, 12%, 10%);
-  
+  background-color: hsl(, 59%, 51%);
 }
 
 /*=============== SCROLL UP ===============*/
-.scrollup{
-  position: fixed;
-  right: 1rem;
-  bottom: -30%;
-  background-color: var(--first-color);
-  display: inline-flex;
-  padding: .35rem;
-  color: var(--title-color-black);
-  font-size: 1.25rem;
-  z-index: var(--z-tooltip);
-  transition: .3s;
-}
 
-.scrollup:hover{
-  transform: translateY(-.25rem);
-}
 
 /* Show Scroll Up*/
-.show_scroll{
-  bottom: 3rem;
 
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and(max-width: 340px) {
-  .container{
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  
-  .section__titles{
-    flex-direction: column;
-    row-gap: .25rem;
 
-  }
-  .home__triangle,
-  .choose__triangle{
-    height: 255px;
-
-  }
-  .home__triangle-3,
-  .choose__triangle-1{
-    width: 260px;
-  }
-
-  .choose__img{
-    width: 195px;
-  }
-
-  .footer__content{
-    grid-template-columns: 1fr;
-  }
-}
 
 /* For medium devices */
 @media screen  and (min-width: 768px) {
@@ -798,58 +744,42 @@ img {
 }
 
 /* For large devices */
-@media screen and(min-width: 1023px) {
-  .nav{
-    height: calc(var(--header-height)+2rem);
-  }
-
-  .nav__menu{
-    width: initial;
-  }
-  .nav__toggle,
-  .nav__close{
-    display: none;
-
-  }
-
-  .nav__list{
+@media screen and (min-width: 768px) {
+  .nav__list {
+   
     flex-direction: row;
     padding: 0;
     align-items: center;
     column-gap: 4rem;
-
   }
 
   .section{
-    padding: 7rem 0 0;
+    padding: 7 rem 0 0;
   }
   .section__subtitle{
     font-size: 2rem;
   }
 
   .home__container{
-    grid-template-columns: repeat(2,max-content);
+    grid-template-columns: repeat(2, max-content);
     align-items: initial;
   }
 
   .home__title{
     margin: .75rem 0 1.25rem;
   }
-
   .home__description{
     width: 445px;
     margin-bottom: 3rem;
 
   }
   .home__img{
-    width: 550px;
+    width: 55px;
     transform: translateX(-6rem);
   }
-
   .home__triangle{
     height: 700px;
   }
-
   .home__triangle-1{
     width: 145px;
   }
@@ -857,29 +787,24 @@ img {
     width: 345px;
   }
   .home__triangle-3{
-    width: 545px;
+    width: 445px;
   }
-
-  .logo{
+  .logos{
     padding: 3.5rem 0 1rem;
   }
-
   .logos__img{
     width: 190px;
   }
 
   .choose__overflow{
-    overflow:hidden;
-
+    overflow: hidden;
   }
   .choose__img{
     width: 350px;
-
   }
   .choose__triangle{
     height: 700px;
   }
-
   .choose__triangle-1{
     width: 545px;
   }
@@ -893,29 +818,28 @@ img {
   .footer{
     padding-bottom: 3rem;
   }
-
   .footer__form{
     flex-direction: row;
+
   }
-  .footer__content{
+  .footer__container{
     column-gap: 5rem;
   }
   .footer__group{
-    grid-template-columns: repeat(2,max-content);
+    grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
     margin-top: 7rem;
+
   }
   .footer__social{
     order: 1;
   }
-  
 }
 
-@media screen and(min-width: 1150px) {
+@media screen and (min-width: 1150px) {
   .container{
     margin-left: auto;
     margin-right: auto;
-
   }
   .home__data{
     padding-top: 3rem;
@@ -931,28 +855,25 @@ img {
     height: 995px;
   }
   .home__triangle-1{
-    height: 205px;
+    width: 205px;
   }
   .home__triangle-2{
-    height: 505px;
+    width: 505px;
   }
   .home__triangle-3{
-    height: 705px;
+    width: 705px;
   }
-
+  
   .program__container{
-    grid-template-columns: repeat(4,245px);
+    grid-template-columns: repeat(4, 245px);
     padding: 3rem 0;
   }
-
   .program__card{
     padding: 2rem;
-
   }
   .program__description{
     font-size: var(--normal-font-size);
   }
-
   .choose__container{
     column-gap: 8rem;
   }
@@ -963,59 +884,32 @@ img {
   .choose__triangle{
     height: 800px;
   }
-  .choose__images{
+  .choose__position{
     position: relative;
   }
   .choose__data{
     grid-template-columns: repeat(2, max-content);
     gap: 2.5rem 8rem;
-  }
 
+  }
   .choose__description{
     width: 418px;
     margin-bottom: 3.5rem;
   }
-
-.calculate__description{
-  width: 415px;
-}
-
-.calculate__form{
-  width: 505px;
-}
-
-.calculate__img{
-  width: 300px;
-}
+  .calculate__description{
+    width: 415px;
+  }
+  .calculate__form{
+    width: 505px;
+  }
+  .calculate__img{
+    width: 300px;
+  }
 .scrollup{
-
   right: 3rem;
 }
-
-
-
 }
-
-@media screen and (min-width: 768px) {
-  .nav__list {
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 2rem;
-  }
-  .nav__logo {
-    visibility: hidden;
-    display: none;
-  }
-  .ri-menu-line {
-    visibility: hidden;
-  }
-  .ri-close-line {
-    visibility: hidden;
-    display: none;
-  }
-}
+/*******************************/
 
 
 
