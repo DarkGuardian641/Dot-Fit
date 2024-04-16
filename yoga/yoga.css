@@ -5,7 +5,7 @@
   --primary-color-dark: #d3f0fb;
   --text-dark: #1e293b;
   --text-light: #64748b;
-  --extra-light: #84dbfa;
+  --extra-light: hwb(191 71% 3%);
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -113,7 +113,6 @@ header {
 header::before {
   position: absolute;
   content: "";
-  left: -25%;
   bottom: 0;
   width: 100%;
   height: 100%;
@@ -461,9 +460,11 @@ header::before {
   gap: 2rem;
 }
 
+/*
 .footer {
   background-color: var(--primary-color);
 }
+*/
 
 .footer__container {
   display: grid;
@@ -474,12 +475,12 @@ header::before {
 .footer__logo a {
   font-size: 1.5rem;
   font-weight: 400;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .footer__col p {
   font-size: 1.25rem;
-  color: var(--white);
+  color: var(--text-dark);
   text-align: center;
 }
 
@@ -497,7 +498,7 @@ header::before {
   width: 50px;
   aspect-ratio: 1;
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--text-dark);
   background-color: #f7ebf330;
   border-radius: 100%;
 }
