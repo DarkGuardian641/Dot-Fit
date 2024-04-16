@@ -531,7 +531,7 @@ img {
 
 */
 
-.choose_img{
+.choose_images{
   width: 260px;
   display: block;
   position: relative;
@@ -655,6 +655,7 @@ img {
   position: absolute;
   transform: translateY(1rem);
 }
+
 
 /*=============== SCROLL BAR ===============*/
 
