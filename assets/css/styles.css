@@ -468,8 +468,7 @@ img {
 }
 
 .choose__overflow{
-  position: relative;
-
+  position:relative;
 }
 
 .choose__container{
@@ -506,6 +505,7 @@ img {
   font-size: var(--small-font-size);
 }
 
+/*
 .choose__triangle{
   height: 325px;
   position: absolute;
@@ -529,12 +529,15 @@ img {
   background-color: var(--first-color-dark);
 }
 
+*/
+
 .choose_img{
   width: 260px;
   display: block;
   position: relative;
   z-index: 1;
   margin: 0 auto;
+
 }
 
 /*=============== PRICING ===============*/
