@@ -661,7 +661,11 @@ img {
 }
 
 /*=============== SCROLL BAR ===============*/
-
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(, 59%, 51%);
+}
 
 /*=============== SCROLL UP ===============*/
 
