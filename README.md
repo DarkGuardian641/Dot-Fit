@@ -10,6 +10,7 @@
 - Find your BMI
 - Yoga Recommendations
 - Create workouts based on your available equipment and the muscles you want to train.
+- Calorie Tracker
 
 ## Link
 
