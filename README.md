@@ -14,7 +14,8 @@
 
 ## Link
 
-- You can self-host the project or use the website on [Dotfit]().
+- You can self-host the project or use the website on [Dotfit](https://dotfit.netlify.app
+).
 
 ## Contributors
 
