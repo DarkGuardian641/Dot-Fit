@@ -670,3 +670,23 @@ img {
 
 
 /* For large devices */
+@media screen and (min-width: 768px) {
+  .nav__list {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .nav__logo {
+    visibility: hidden;
+    display: none;
+  }
+  .ri-menu-line {
+    visibility: hidden;
+  }
+  .ri-close-line {
+    visibility: hidden;
+    display: none;
+  }
+}
