@@ -3,3 +3,14 @@
 <h1>DOTFIT</h1>
 <h3><em> A simple fitness website</em></h3>
 </div>
+
+## About
+
+- A small fitness tracking website.
+- Find your BMI
+- Yoga Recommendations
+- Create workouts based on your available equipment and the muscles you want to train.
+
+## Link
+
+- You can self-host the project or use the website on [Dotfit]().
