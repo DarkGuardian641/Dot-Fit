@@ -17,7 +17,10 @@
 
 ## Contributors
 
-[![Atharva Baikar](https://github.com/DarkGuardian641/Dot-Fit/blob/main/at.jpg)](https://github.com/DarkGuardian641)
-[![Lalit Katkam](https://github.com/DarkGuardian641/Dot-Fit/blob/main/lalit.png)](https://github.com/LalitK26)
-[![Akanksha Kanade](https://github.com/DarkGuardian641/Dot-Fit/blob/main/ak.png)](https://github.com/wish3233)
-[![Azlaan Khan](https://github.com/DarkGuardian641/Dot-Fit/blob/main/ak.png)](https://github.com/DarkGuardian641)
+[Atharva Baikar](https://github.com/DarkGuardian641)
+<br>
+[Lalit Katkam](https://github.com/LalitK26)
+<br>
+[Akanksha Kanade](https://github.com/wish3233)
+<br>
+[Azlaan Khan](https://github.com/kazlaan)
