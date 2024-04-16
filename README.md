@@ -6,7 +6,7 @@
 
 ## Our Website
 
-Visit https://dotfit.netlify.app to check our website
+Visit https://dotfit.netlify.app to check our website.
 
 ## About
 
