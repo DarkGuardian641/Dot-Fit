@@ -17,7 +17,7 @@
 
 ## Contributors
 
-[Atharva Baikar](https://github.com/DarkGuardian641)
-[Lalit Katkam](https://github.com/LalitK26)
-[Akanksha Kanade](https://github.com/wish3233)
-[Azlaan Khan](https://github.com/DarkGuardian641)
+<p>[Atharva Baikar](https://github.com/DarkGuardian641)</p>
+<p>[Lalit Katkam](https://github.com/LalitK26)</p>
+<p>[Akanksha Kanade](https://github.com/wish3233)</p>
+<p>[Azlaan Khan](https://github.com/kazlaan)</p>
