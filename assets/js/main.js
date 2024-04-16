@@ -63,14 +63,6 @@ window.addEventListener('scroll', scrollActive)
 
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
-<<<<<<< HEAD
-	const scrollUp = document.getElementById('scroll-up')
-    // When the scroll is higher than 350 viewport height, add the show-scroll class to the a tag with the scrollup class
-	this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
-						: scrollUp.classList.remove('show-scroll')
-}
-window.addEventListener('scroll', scrollUp)
-=======
     const scrollUp = document.getElementById('scroll-up')
     // When the scroll is higher than 350 viewport height, add the show-scroll class to the a tag with the scrollup
     this.scrollY >= 350 ? scrollUp. classList. add('show-scroll')
@@ -79,7 +71,6 @@ window.addEventListener('scroll', scrollUp)
 }
  window. addEventListener('scroll', scrollUp)
 
->>>>>>> a92985ee2a645de1b3916774e137719d148a8667
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
@@ -89,7 +80,7 @@ const sr = ScrollReveal({
     delay: 400,
 
 })
-sr.reveal('.home__data' .footer__container, .footer__group)
+sr.reveal('.home__data' .footer__container .footer__group)
 sr.reveal('.home__img',{delay: 700, origin: 'bottom'})
 sr.reveal('.logos__img, .program__card',{interval: 100})
 sr.reveal{'.choose__img , .calculate__content', {origin: 'left'}}
