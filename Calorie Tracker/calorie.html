@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calorie.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Calorie Tracker</h1>
+        <div class="input-container">
+            <input type="text" id="foodInput" class="food-input" placeholder="Enter food name">
+            <button onclick="getCalories()" class="track-btn">Track</button>
+        </div>
+        <div id="trackedItems" class="tracked-items"></div>
+        <div id="totalCaloriesDisplay" class="total-calories"></div>
+    </div>
+
+    <script src="calorie.js"></script>
+</body>
+</html>

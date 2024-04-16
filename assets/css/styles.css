@@ -190,7 +190,7 @@ img {
 }
 
 .nav__logo img{
-  width: 1.25rem;
+  width: 5rem;
 }
 
 .nav__toggle{
@@ -409,7 +409,7 @@ img {
 }
 
 .program__description{
-  font-size: var(--small-font-size);
+  font-size: var(--small-fonmt-size);
   letter-spacing: .5px;
   line-height: 150%;
 }
@@ -424,8 +424,8 @@ img {
   justify-self: flex-end;
   margin-top: 1.5rem;
   font-size: 1.25rem;
-  color: var(--title-color-black);
-  opacity: 0;
+  color: var(--title-color/*-black*/);
+  /*opacity: 0;*/
   transition: opacity .4s;
 }
 .program__button i{
@@ -529,7 +529,9 @@ img {
   background-color: var(--first-color-dark);
 }
 
-.choose_imgages{
+*/
+
+.choose_images{
   width: 260px;
   display: block;
   position: relative;
@@ -542,71 +544,8 @@ img {
 
 
 /*=============== CALCULATE ===============*/
-.calculate{
-  padding-bottom: 0;
-}
 
-.calculate__container{
-  row-gap: 4rem;
-}
 
-.calculate__content .section__titles{
-  margin-bottom: 2rem;
-  text-align:center;
-}
-
-.calculate__description{
-  text-align: center;
-  margin-bottom: 2.5rem;
-}
-.calculate__form{
-  display:grid;
-  row-gap: 1rem;
-}
-
-.calculate__box{
-  position:relative;
-  border: 2px solid var(--first-color-light)
-}
-
-.calculate__input{
-  width: 100%;
-  background:transparent;
-  padding: 20px 56px 20px 24px;
-  outline:none;
-  border: none;
-  color: var(--text-color);
-}
-
-.calculate__input::-webkit-outer-spin-button,
-.calculate__input::-webkit-inner-spin-button{
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.calculate__input[type=number]{
-  -webkit-moz-appearance: "textfield";
-}
-.calculate__label{
-  position: absolute;
-  right: 1.5rem;
-  top: 1.25rem;
-  color: var(--title-color);
-}
-
-.calculate__form .button{
-  margin-top: 1.5rem;
-}
-
-.calculate__img{
-  width: 200px;
-  justify-self: center;
-}
-
-.calculate__message{
-  position: absolute;
-  transform: translateY(1rem);
-}
 /*=============== FOOTER ===============*/
 .footer__container{
   row-gap: 4rem;
@@ -632,8 +571,7 @@ img {
   margin-bottom: 1.5rem;
 
 }
-
-.footer__img{
+.footer__logo img {
   width: 1.5rem;
 }
 
@@ -682,6 +620,10 @@ img {
 }
 
 .footer__link:hover{
+  color: var(--first-color);
+}
+
+.footer__group{
   margin-top: 5rem;
   justify-items: center;
   row-gap: 2rem;
@@ -689,6 +631,7 @@ img {
 
 .footer__social{
   column-gap: 1.25rem;
+
 }
 
 .footer__social-link{
@@ -708,7 +651,7 @@ img {
 
 .footer__copy{
   font-size: var(--smaller-font-size);
-  color: var(--first-color-light);
+  color: var(--text-color-light);
 
 }
 
@@ -717,23 +660,8 @@ img {
   transform: translateY(1rem);
 }
 
-
 /*=============== SCROLL BAR ===============*/
-::-webkit-scrollbar{
-  width: .6rem;
-  border-radius: .5rem;
-  background-color: hsl(79, 4%, 15%);
-}
 
-::-webkit-scrollbar-thumb{
-  background-color: hsl(79, 4%, 25%);
-  border-radius: 5rem;
-}
-
-::-webkit-scrollbar-thumb:hover{
-  background-color: hsl(79, 4%, 35%);
-  border-radius: .5rem;
-}
 
 /*=============== SCROLL UP ===============*/
 .scrollup{

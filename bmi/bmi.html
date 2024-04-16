@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,50 +6,21 @@
     <title>BMI Calculator</title>
     <link rel="stylesheet" href="bmi.css">
 </head>
-<body bgcolor="#121717">
-    <nav>
-        <div class="bmi__logo">
-          <img src="logo.png" alt="logo" />
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Enter your height">
         </div>
-    </nav>
-    <h1 class="home__subtitle">BMI CALCULATOR</h1>
+        <div>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight">
+        </div>
+        <button id="calculate">Calculate BMI</button>
+        <div id="result"></div>
+    </div>
 
-                <!--==================== CALCULATE ======================-->
-                <section class="calculate-section">
-                    <div class="calculate__container container grid">
-                        <div class="calculate__Content">
-                            <div class="section__titles">
-                                <h1 class="section__title-border"></h1>
-                                <h1 class="section__title-border">CALCULATE YOUR BMI</h1>
-                            </div>
-                
-                            <p class="calculate__description">
-                                The body mass index calculator calculates body mass index
-                                from your weight and height.
-                            </p>
-                
-                            <form action="" class="calculate__form" id="calculate-form">
-                                <div class="calculate__box">
-                                    <input type="number" placeholder="height" class="calculate__input" id="calculate-cm">
-                                    <label for="" class="calculate__label">cm</label>
-                                </div>
-                                <div class="calculate__box">
-                                    <input type="number" placeholder="weight" class="calculate__input" id="calculate-kg">
-                                    <label for="" class="calculate__label">kg</label>
-                                </div>
-                
-                                <button type="submit" class="button button__flex">
-                                    Calculate Now <i class="ri-arrow-right-line"></i>
-                                </button>
-                            </form>
-                
-                            <p class="calculate__message" id="calculate-message"></p>
-                        </div>
-                
-                        <img src="assets/img/cA" alt="calculate image" class="calculate__img">
-                    </div>
-                </section>
-                
-    
+    <script src="bmi.js"></script>
 </body>
 </html>
