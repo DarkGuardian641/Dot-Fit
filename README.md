@@ -4,6 +4,10 @@
 <h3><em> A simple fitness website</em></h3>
 </div>
 
+## Our Website
+
+Visit https://dotfit.netlify.app to check our website.
+
 ## About
 
 - A small fitness tracking website.
@@ -14,7 +18,8 @@
 
 ## Link
 
-- You can self-host the project or use the website on [Dotfit]().
+- You can self-host the project or use the website on [Dotfit](https://dotfit.netlify.app
+).
 
 ## Contributors
 
