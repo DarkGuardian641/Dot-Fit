@@ -4,6 +4,8 @@
 <h3><em> A simple fitness website</em></h3>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c0aaaec-b284-4c8b-8e63-50937982b474/deploy-status)](https://app.netlify.com/sites/dotfit/deploys)
+
 ## Our Website
 
 Visit https://dotfit.netlify.app to check our website.
