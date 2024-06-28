@@ -27,6 +27,6 @@ Visit https://dotfit.netlify.app to check our website.
 <br>
 [Lalit Katkam](https://github.com/LalitK26)
 <br>
-[Akanksha Kanade](https://github.com/wish3233)
+[Akanksha Kanade](https://github.com/CandyBeans1609)
 <br>
 [Azlaan Khan](https://github.com/kazlaan998)
