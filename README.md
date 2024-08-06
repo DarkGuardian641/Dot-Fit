@@ -4,9 +4,11 @@
 <h3><em> A simple fitness website </em></h3>
 </div>
 
+<!--
 ## Our Website
 
 Visit https://dotfit.netlify.app to check our website.
+-->
 
 ## About
 
