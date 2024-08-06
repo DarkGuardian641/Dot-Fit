@@ -16,11 +16,6 @@ Visit https://dotfit.netlify.app to check our website.
 - Create workouts based on your available equipment and the muscles you want to train.
 - Calorie Tracker
 
-## Link
-
-- You can self-host the project or use the website on [Dotfit](https://dotfit.netlify.app
-).
-
 ## Contributors
 
 [Atharva Baikar](https://github.com/DarkGuardian641)
